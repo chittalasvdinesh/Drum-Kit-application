@@ -1,0 +1,38 @@
+/* 
+body{
+    background: url('https://tse1.mm.bing.net/th?id=OIP.gCBzt8kEt0byTTH4dbti0gHaEo&pid=Api&P=0&w=249&h=156') no-repeat;
+    background-size: cover;
+    max-width: 100%;
+
+} */
+.keys{
+    display: flex;
+    justify-content: space-around;
+   
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.key{
+    margin: 10px;
+
+    /* border: 3px solid black; */
+    padding: 20px;
+    /* text-align: center; */
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    transition: 0.7s all;
+
+}
+
+
+.playing{
+    transform: scale(1.1);
+}
+
+.image{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
